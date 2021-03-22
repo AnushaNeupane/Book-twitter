@@ -7,8 +7,12 @@
     <title>Twitter</title>
 </head>
 <body>
+  <div class="container">
     <%- include('../partials/header.ejs') %>
-    <%- include('../partials/errorMessage.ejs') %>
-    <%- body %>
+    <div class="inner-container">
+      <%- include('../partials/errorMessage.ejs') %>
+      <%- body %>
+    </div>
+  </div>
 </body>
 </html>
